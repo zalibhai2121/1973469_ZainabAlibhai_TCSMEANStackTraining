@@ -1,4 +1,4 @@
-project = [];
+var  project = [];
 
 function retrieveFromSession() {
     var retrievedObject = JSON.parse(sessionStorage.getItem("project"));
