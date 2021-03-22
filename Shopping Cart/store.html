@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
+
 <body>
-    
+    <header class="header">
+        <nav class=" nav">
+            <ul>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="Checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+        <h1 class="headerTitle bigTitle">Shopping Project</h1>
+    </header>
+    <section class="container content-section">
+        <div class="items">
+            <div class="item">
+                <span class="itemTitle">Album 1</span>
+                <img class="image" src="Album1.jpg">
+                <div class="details">
+                    <span class="price">$12.99</span>
+                    <button class="btn btn-primary button" type="button" onclick ="addToCart()">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="itemTitle">Album 2</span>
+                <img class="image" src="Album2.jpg">
+                <div class="details">
+                    <span class="price">$14.99</span>
+                    <button class="btn btn-primary button" type="button" onclick ="addToCart()">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="itemTitle">Album 3</span>
+                <img class="image" src="Album3.png">
+                <div class="details">
+                    <span class="price">$9.99</span>
+                    <button class="btn btn-primary button" type="button" onclick ="addToCart()">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="itemTitle">Album 4</span>
+                <img class="image" src="Album4.jpg">
+                <div class="details">
+                    <span class="price">$19.99</span>
+                    <button class="btn btn-primary button" type="button" onclick ="addToCart()">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="itemTitle">T-Shirt</span>
+                <img class="image" src="Shirt.jpeg">
+                <div class="details">
+                    <span class="price">$19.99</span>
+                    <button class="btn btn-primary button" type="button" onclick ="addToCart()">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="itemTitle">Starbucks Coffee</span>
+                <img class="image" src="Coffee.jpg">
+                <div class="details">
+                    <span class="price">$6.99</span>
+                    <button class="btn btn-primary button" type="button" onclick ="addToCart()">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
