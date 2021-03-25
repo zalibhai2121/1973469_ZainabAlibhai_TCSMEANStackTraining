@@ -1,0 +1,25 @@
+<h2>Welcome {{username}}</h2>
+<input type="button" value="logout here" class="logout" (click)="logout()">
+<div>
+    <section class="container addProfile clear" id = "section1">
+        <form class=" wrap" [formGroup]='contact' (ngSubmit)="addPortfolio()">
+            <label>Contact Info</label>
+            <input type="text" formControlName="contactInfo" /> <br>
+            <label>Phone Number</label>
+            <input type="text" formControlName="phoneNumber">
+            <input type="submit" value="submit" />
+        </form>
+    </section>
+    <section class="tables" id = "section2">
+        <table>
+            <tr>
+                <th>Contact Info</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr *ngFor="let contacts of cons">
+                <td>{{contacts.ContactInfo}}</td>
+                <td>{{contacts.PhoneNumber}} </td>
+            </tr>
+        </table>
+    </section>
+</div>

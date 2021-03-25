@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+.logout{
+    font-size: .8em;
+	position: relative;
+  float: right;
+  overflow: hidden;
+  letter-spacing: 3px;
+}
+.clear {
+    clear: both;
+}
+
+
+.addProfile{
+    position: relative;
+    padding: 20px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-left: auto;
+  margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+label {
+  color: lightgray;
+}
+input[type=text], [type = password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+input[type=text]:focus, [type = password]:focus {
+    border: 3px solid #555;
+  }
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+ }

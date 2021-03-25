@@ -1,0 +1,17 @@
+<div class = "login">
+    <h2>Login Form</h2>
+    <form class = "container"[formGroup] = 'loginRef'(ngSubmit) = "checkUser()">
+        <div class = "username">
+            <label>Username</label>
+        <input type="text" formControlName = "user"/> <br/>
+        </div>
+        <div class = password>
+            <label>password</label>
+        <input type="password" formControlName = "pass"/> <br/>
+        </div>
+        <div class = "button">
+            <input type="submit" value="submit" class = "btn-primary"/>
+            <input type = "button" value = "register" class = "btn-secondary" (click) = "register()"/>
+        </div>
+    </form>
+</div>
