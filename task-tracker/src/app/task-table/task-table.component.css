@@ -1,0 +1,16 @@
+div {
+    margin-left: 25%;
+    text-align: center;
+}
+
+table {
+    background: #f8f4e5;
+    padding: 50px 100px;
+    border: 2px solid rgba(0,0,0,1);
+    max-width: 50%;
+  }
+
+  table, td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+  }
