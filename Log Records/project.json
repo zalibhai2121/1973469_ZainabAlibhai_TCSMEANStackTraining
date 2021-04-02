@@ -1,0 +1,42 @@
+[
+    {
+        "first_name": "Zainab",
+        "last_name": "Alibhai",
+        "gender": "Female",
+        "email": "z.alibhai@tcs.com",
+        "date": "02-04-2021",
+        "time": "02:04 PM GMT-0500"
+    },
+    {
+        "first_name": "Selena",
+        "last_name": "Gomez",
+        "gender": "Female",
+        "email": "sg@gmail.com",
+        "date": "02-04-2021",
+        "time": "02:04 PM GMT-0500"
+    },
+    {
+        "first_name": "James",
+        "last_name": "Bond",
+        "gender": "Male",
+        "email": "jbond@gmail.com",
+        "date": "02-04-2021",
+        "time": "02:04 PM GMT-0500"
+    },
+    {
+        "first_name": "Lilly",
+        "last_name": "Singh",
+        "gender": "Female",
+        "email": "lilSingh@yahoo.com",
+        "date": "02-04-2021",
+        "time": "02:09 PM GMT-0500"
+    },
+    {
+        "first_name": "James",
+        "last_name": "Cordan",
+        "gender": "Male",
+        "email": "jcordan@hotmail.com",
+        "date": "02-04-2021",
+        "time": "02:09 PM GMT-0500"
+    }
+]
