@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <style>
+        h1{
+            text-align: center;
+            color: white;
+            background-color: rgb(31, 26, 26);
+        }
+        form {
+            text-align: center;
+            background-color:teal;
+            color: white
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/JavaScript">
+        var socket = io();
+        function fun() {
+            socket.emit("chat message", document.getElementById('name').value);
+            socket.emit("chat message", document.getElementById('message').value)
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Chatting with Socket.io</h1>
+    <hr>
+    <form class="container">
+        <label>Name:</label>
+        <input type="text" id='name' /> <br>
+        <label>Message:</label>
+        <textarea name="Message" id="message" cols="30" rows="10"></textarea> <br>
+    </form>
+    <input type="button" class = "btn btn-dark" value="click here" onclick='fun()'>
+</body>
+
+</html>
